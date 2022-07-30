@@ -21,6 +21,11 @@ namespace WATickets.Models.Cliente
         public virtual DbSet<EncOrdenesCompra> EncOrdenesCompra { get; set; }
         public virtual DbSet<DetOrdenesCompra> DetOrdenesCompra { get; set; }
         public virtual DbSet<BitacoraErrores> BitacoraErrores { get; set; }
+        public virtual DbSet<Agrupados> Agrupados { get; set; }
+        public virtual DbSet<OrdenesLineas> OrdenesLineas { get; set; }
+        public virtual DbSet<Generados> Generados { get; set; }
+
+
 
 
 

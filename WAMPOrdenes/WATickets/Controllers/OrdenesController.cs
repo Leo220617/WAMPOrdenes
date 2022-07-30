@@ -56,7 +56,7 @@ namespace WATickets.Controllers
                         enc.CardName = item["NombreProveedor"].ToString();
                         enc.DocDate = Convert.ToDateTime(item["Fecha"].ToString());
                         enc.Series = item["Series"].ToString();
-                        enc.Estado = item["Estado"].ToString();
+                        enc.Estado = item["Status"].ToString();
                         enc.Comentarios = item["Comentario"].ToString();
                         db.EncOrdenesCompra.Add(enc);
                         db.SaveChanges();

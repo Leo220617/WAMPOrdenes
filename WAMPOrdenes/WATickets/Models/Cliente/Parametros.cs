@@ -16,5 +16,11 @@ namespace WATickets.Models.Cliente
         public string SQLDetOrdenesCompra { get; set; }
         public string SQLOrdenesProduccion { get; set; }
         public string SQLExistencias { get; set; }
+        public string SQLProductoxOrdenes { get; set; }
+        public string SQLAgrupado { get; set; }
+        public string SQLLineaxOrden { get; set; }
+        public string SQLOrdenesFabricacionAsociadas { get; set; }
+        public string SQLPreguntaExisten { get; set; }
+        public string SQLRecibo { get; set; }
     }
 }

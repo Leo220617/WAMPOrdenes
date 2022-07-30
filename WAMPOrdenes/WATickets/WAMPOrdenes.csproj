@@ -235,15 +235,19 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AgrupadoController.cs" />
+    <Compile Include="Controllers\AgrupadoProcesarController.cs" />
     <Compile Include="Controllers\BitacoraErroresController.cs" />
     <Compile Include="Controllers\Conexion.cs" />
     <Compile Include="Controllers\ExistenciasController.cs" />
     <Compile Include="Controllers\FabricacionController.cs" />
     <Compile Include="Controllers\G.cs" />
+    <Compile Include="Controllers\GeneradosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\OrdenesController.cs" />
     <Compile Include="Controllers\OrdenesProduccionController.cs" />
+    <Compile Include="Controllers\PLineasController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\SeguridadModulosController.cs" />
     <Compile Include="Controllers\SeguridadRolesModulosController.cs" />
@@ -252,12 +256,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Cliente\Agrupados.cs" />
     <Compile Include="Models\Cliente\BitacoraErrores.cs" />
     <Compile Include="Models\Cliente\ConexionSAP.cs" />
     <Compile Include="Models\Cliente\DetOrdenesCompra.cs" />
     <Compile Include="Models\Cliente\EncOrdenesCompra.cs" />
+    <Compile Include="Models\Cliente\Generados.cs" />
     <Compile Include="Models\Cliente\Login.cs" />
     <Compile Include="Models\Cliente\ModelCliente.cs" />
+    <Compile Include="Models\Cliente\OrdenesLineas.cs" />
     <Compile Include="Models\Cliente\Parametros.cs" />
     <Compile Include="Models\Cliente\Roles.cs" />
     <Compile Include="Models\Cliente\SeguridadModulos.cs" />
